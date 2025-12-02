@@ -1,0 +1,103 @@
+.third-section {
+  position: relative;
+  width: 100%;
+  background-color: #f5eee7;
+  padding: 120px 6vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.third-section__wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  z-index: 1;
+}
+
+.third-section__content {
+  flex: 1;
+  max-width: 520px;
+  position: relative;
+  z-index: 1;
+}
+
+.third-section__word {
+  position: absolute;
+  top: -60px;
+  left: -20px;
+  width: min(640px, 70vw);
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.third-section__eyebrow {
+  margin: 0 0 12px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: rgba(12, 18, 31, 0.7);
+}
+
+.third-section__title {
+  margin: 0 0 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.8rem, 4.5vw, 3.8rem);
+  letter-spacing: 0.06em;
+  color: #0c121f;
+}
+
+.third-section__subtitle {
+  margin: 0 0 24px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #0c121f;
+}
+
+.third-section__body {
+  margin: 0 0 36px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #34363f;
+}
+
+.third-section__cta {
+  border: none;
+  padding: 16px 46px;
+  background-color: #ff4655;
+  color: #fff6f4;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: bold;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.third-section__cta:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.third-section__art {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.third-section__art img {
+  width: 100%;
+  max-width: 520px;
+
+}
+
