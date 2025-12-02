@@ -1,10 +1,10 @@
 import './Footer.css'
-import DiscordIcon from '../../assets/icons/Discord-icon.svg'
-import FacebookIcon from '../../assets/icons/Facebook-icon.svg'
-import InstagramIcon from '../../assets/icons/Instagram-icon.svg'
-import TiktokIcon from '../../assets/icons/Tiktok-icon.svg'
-import XIcon from '../../assets/icons/X-icon.svg'
-import YoutubeIcon from '../../assets/icons/Youtube-icon.svg'
+import DiscordIcon from '../../assets/Icons/Discord-icon.svg'
+import FacebookIcon from '../../assets/Icons/Facebook-icon.svg'
+import InstagramIcon from '../../assets/Icons/Instagram-icon.svg'
+import TiktokIcon from '../../assets/Icons/Tiktok-icon.svg'
+import XIcon from '../../assets/Icons/X-icon.svg'
+import YoutubeIcon from '../../assets/Icons/Youtube-icon.svg'
 import RiotLogo from '../../assets/RiotGames-logo.svg'
 
 const socials = [
